@@ -1,0 +1,39 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#master {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+
+}
+
+.master-section {
+    border: solid 1px blue;
+    margin: 5px;
+    text-align: center;
+}
+
+.master-body {
+    border: solid 1px blue;
+    margin: 0px 5px;
+    text-align: center;
+}
+
+.master-footer {
+    border: solid 1px blue;
+    margin: 0px 5px;
+    height: 80px;
+}
+
+.titulo {
+    font-size: 30px;
+    color: rgb(0, 0, 128);
+}
+
+.subtitulo {
+    font-size: 15px;
+    color: rgb(107, 107, 234);
+}
