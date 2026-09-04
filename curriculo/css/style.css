@@ -1,0 +1,89 @@
+/* UTILS */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 10px;
+}
+
+.titulo {
+    font-size: 25px;
+}
+
+
+.subtitulo {
+    font-weight: 30px;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.descricao {
+    font-size: 16px;
+    color: #808080;
+}
+
+.secao-corpo {
+    background-color: #fafafa;
+    padding: 0 10px;
+    border-top: 2px solid blue;
+}
+
+
+ul {
+    list-style-type: circle;
+}
+
+ul li {
+    padding: 10px 0px;
+}
+
+
+.menu-direito {
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: #fafafa;
+    border: 1px rgb(193, 193, 245) solid;
+}
+
+/* RODAPE */
+#intro {
+    width: 70%;
+    height: 200px;
+    float: left;
+}
+
+
+#contatos {
+    width: 25%;
+    margin-left: 10px;
+    float: right;
+}
+
+
+/* CORPO */
+
+#formacao {
+    width: 70%;
+    float: left;
+}
+
+
+#competencias {
+    width: 25%;
+    float: right;
+}
+
+#experiencia {
+    width: 70%;
+    float: left;
+}
+
+
+/* FOOTER */
+#footer {
+    width: 70%;
+    float: left;
+}
