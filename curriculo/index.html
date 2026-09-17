@@ -8,46 +8,69 @@
 </head>
 <body>
     <div id="master">
-        <div id="rodape">
+        <div id="cabeca">
             <div id="intro">
-                <p class="titulo">Samuel Isidro Santiago</p>
-                <p class="subtitulo">Desenvolvedor Java & Full-Stack | São Paulo - SP</p>
-
-                <p>
-                    Olá, me chamo Samuel, tenho 18 anos e sou desenvolvedor Full-Stack, cursando
-                    Desenvolvimento de Software Multiplataforma na FATEC Itaquera e Técnico em
-                    Desenvolvimento de Sistemas pela ETEC.
-                    Busco uma oportunidade de estágio para aplicar minha sólida base técnica, colaborar com o time
-                    e evoluir no desenvolvimento de soluções robustas e escaláveis.
-                </p>
+                <div id="intro-legenda">
+                    <p class="text-2xl semibold">Samuel Isidro Santiago</p>
+                    <p class="text-md text-stone-600">Desenvolvedor Java & Full-Stack | São Paulo - SP</p>
+                </div>
+                <img id="retrato" src="files/img/foto.jpg" alt="Retrato">
+                <div id="sobre-mim">
+                    <p class="text-md">
+                        Olá, me chamo Samuel, tenho 18 anos e sou desenvolvedor Full-Stack, cursando
+                        Desenvolvimento de Software Multiplataforma na FATEC Itaquera e Técnico em
+                        Desenvolvimento de Sistemas pela ETEC.
+                        Busco uma oportunidade de estágio para aplicar minha sólida base técnica, colaborar com o time
+                        e evoluir no desenvolvimento de soluções robustas e escaláveis.
+                    </p>
+                </div>
             </div>
             <div id="contatos" class="menu-direito">
-                <p class="subtitulo">Contatos</p>
-                <ul>
-                    <li>Linkedin: <a href="#">Samuel Isidro</a></li>
-                    <li>Github: <a href="http://github.com/SamuMeneDev">Portifólio Github</a></li>
-                    <li>Email: <a href="#">meu.email@example.com</a></li>
+                <p class="text-xl text-stone-600 semibold">Contatos</p>
+                <p class="text-md text-stone-600">Entre em contato para conversarmos melhor!</p>
+                <ul class="text-md">
+                    <li>
+                        <a href="#" target="_blank" title="Samuel Isidro Santiago">
+                            <img class="icon" src="files/img/icons/linkedin.png" alt="Logo Linkedin">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://github.com/SamuMeneDev" title="Portifólio Github" target="_blank">
+                            <img class="icon" src="files/img/icons/github.png" alt="Logo Github">
+                        </a>
+                    </li>
+                    <li>
+                        <a title="Email de contato" href="#">
+                            <img class="icon" src="files/img/icons/mail.svg" alt="Logo email">
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
         <div id="corpo">
             <div id="formacao" class="secao-corpo">
-                <p class="subtitulo">Formação</p>
+                <div class="secao-corpo-titulo">
+                    <p class="text-xl text-stone-700 semibold">Formação</p>
+                </div>
                 <ul>
                     <li>
                         <div class="formacao-item">
-                            <p class="bold">Tecnólogo em Desenvolvimento de Software Multiplataforma - FATEC Itaquera</p>
-                            <p class="descricao">ago 2026 - jul 2029</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus officia,
+                            <div class="formacao-item-detalhes">
+                                <p class="text-lg semibold">Tecnólogo em Desenvolvimento de Software Multiplataforma - FATEC Itaquera</p>
+                                <p class="text-sm text-stone-500">ago 2026 - jul 2029</p>
+                            </div>
+                            <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus officia,
                             labore optio accusantium explicabo, doloremque blanditiis dolore expedita enim
                             sequi saepe magnam animi rerum tempore perspiciatis unde aspernatur alias.</p>
                         </div>
                     </li>
                     <li>
                         <div class="formacao-item">
-                            <p class="bold">Técnico em Desenvolvimento de Sistemas - ETEC de Guaianazes</p>
-                            <p class="descricao">jan 2025 - jun 2026</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+                            <div class="formacao-item-detalhes">
+                                <p class="text-lg semibold">Técnico em Desenvolvimento de Sistemas - ETEC de Guaianazes</p>
+                                <p class="text-sm text-stone-500">jan 2025 - jun 2026</p>
+                            </div>
+                            <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
                             eius ea et? Porro minus tempora alias illum. Voluptate numquam iure
                             cupiditate obcaecati necessitatibus. Perspiciatis quae officia sed
                             commodi magnam nesciunt.</p>
@@ -55,43 +78,62 @@
                     </li>
                 </ul>
             </div>
+
             <div id="competencias" class="menu-direito">
-                <p class="subtitulo">Competências</p>
-                <ul>
+                <p class="text-xl text-stone-600 semibold">Competências</p>
+                <ul class="text-md">
                     <li>Metodologias Ágeis</li>
                     <li>Trabalho em equipe</li>
                     <li>Java</li>
-                    <li>Desenvolvimento de Back-End</li>
+                    <li>Desenvolvimento de back-End</li>
                     <li>Angular</li>
                     <li>Desenvolvimento de front-end</li>
+                    <li>Japonês Básico</li>
+                    <li>Inglês Intermediário</li>
                 </ul>
             </div>
+
             <div id="experiencia" class="secao-corpo">
-                <p class="subtitulo">Experiência/Projetos</p>
+                <p class="text-xl text-stone-700 semibold">Experiência/Projetos</p>
                 <ul>
                     <li>
                         <div class="experiencia-item">
-                            <p>Freelance - Sistema de gerenciamento de estoque</p>
-                            <p class="descricao">jul 2026 - o momento</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab veniam quibusdam animi
+                            <div class="experiencia-item-detalhes">
+                                <p class="text-lg semibold">Freelance - Sistema de gerenciamento de estoque</p>
+                                <p class="text-sm text-stone-500">jul 2026 - o momento</p>
+                            </div>
+                            <p class="text-md">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab veniam quibusdam animi
                             non recusandae ipsam excepturi nihil fugit laborum quas voluptas, vero atque saepe
                             asperiores deserunt aut eius? Nostrum, fuga.</p>
                         </div>
                     </li>
                     <li>
                         <div class="experiencia-item">
-                            <p>Trabalho de Conclusão de Curso (TCC)</p>
-                            <p class="descricao">jan 2026 - jun 2026</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab veniam quibusdam animi
-                            non recusandae ipsam excepturi nihil fugit laborum quas voluptas, vero atque saepe
-                            asperiores deserunt aut eius? Nostrum, fuga.</p>
+                            <div class="experiencia-item-detalhes">
+                                <p class="text-lg semibold">COMPETEC: Curso Intensivo de Java - PET-SI EACH-USP</p>
+                                <p class="text-sm text-stone-500">abr 2026 - ago 2026</p>
+                            </div>
+                            <p class="text-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates aliquid cum voluptatibus ipsam, consectetur soluta veritatis, facere amet consequatur eum deleniti suscipit qui repellat. Ex facere dignissimos labore nam! Consequatur?</p>
                         </div>
                     </li>
                     <li>
                         <div class="experiencia-item">
-                            <p>Bootcamp Angular (17+) e Spring Boot</p>
-                            <p class="descricao">mai 2026 - jul 2026</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem, obcaecati animi eum voluptas explicabo temporibus totam modi quae nisi reprehenderit eveniet eaque amet dolorem quas deserunt, nulla a numquam.</p>
+                            <div class="experiencia-item-detalhes">
+                                <p class="text-lg semibold">Bootcamp Angular (17+) e Spring Boot</p>
+                                <p class="text-sm text-stone-500">mai 2026 - jul 2026</p>
+                            </div>
+                            <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quidem, obcaecati animi eum voluptas explicabo temporibus totam modi quae nisi reprehenderit eveniet eaque amet dolorem quas deserunt, nulla a numquam.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="experiencia-item">
+                            <div class="experiencia-item-detalhes">
+                                <p class="text-lg semibold">Trabalho de Conclusão de Curso (TCC)</p>
+                                <p class="text-sm text-stone-500">jan 2026 - jun 2026</p>
+                            </div>
+                            <p class="text-md">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab veniam quibusdam animi
+                            non recusandae ipsam excepturi nihil fugit laborum quas voluptas, vero atque saepe
+                            asperiores deserunt aut eius? Nostrum, fuga.</p>
                         </div>
                     </li>
                 </ul>
