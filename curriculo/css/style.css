@@ -1,71 +1,45 @@
-/* CONFGIGURAÇÕES DA PÁGINA */
+/* UTILS */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 10px;
 }
 
-p {
-    width: fit-content;
-}
-/* TIPOGRAFIAS */
-.text-2xl {
-    font-size: 1.6rem;
-    margin: 0;
-}
-.text-xl {
-    margin: 0;
-    font-size: 1.4rem;
-}
-.text-lg {
-    margin: 0;
-    font-size: 1.2rem;
-}
-.text-md {
-    margin: 0;
-    font-size: 1rem;
-}
-.text-sm {
-    margin: 0;
-    font-size: 0.8rem;
-}
-.text-xs {
-    margin: 0;
-    font-size: 0.6rem;
+.titulo {
+    font-size: 25px;
 }
 
 
-/* VARIAÇÕES DE TEXTO */
-.text-stone-500 {
+.subtitulo {
+    font-weight: 30px;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 400;
+}
+
+.descricao {
+    font-size: 16px;
     color: #808080;
 }
-.text-stone-600 {
-    color: #575757;
-}
-.text-stone-700 {
-    color: #424242;
-}
-.bold {
-    font-weight: 700;
-}
-.semibold {
-    font-weight: 600;
-}
 
-
-/* ESTILO DE COMPONENTES DA PÁGINA */
 .secao-corpo {
     background-color: #fafafa;
     padding: 0 10px;
     border-top: 2px solid blue;
 }
-.secao-corpo .secao-corpo-titulo {
-    float: left;
-    width: 100%;
+
+
+ul {
+    list-style-type: circle;
 }
-.secao-corpo ul {
-    list-style-type: square;
+
+ul li {
+    padding: 10px 0px;
 }
+
 
 .menu-direito {
     margin: 10px 0;
@@ -74,45 +48,11 @@ p {
     border: 1px rgb(193, 193, 245) solid;
 }
 
-.icon {
-    width: 1.5rem;
-}
-.icon:hover {
-    opacity: 0.7;
-}
-
-.formacao-item, .experiencia-item {
-    padding: 0.7rem 0;
-}
-.formacao-item .formacao-item-detalhes, .experiencia-item .experiencia-item-detalhes {
-    margin-bottom: 0.7rem;
-}
-
-ul {
-    list-style-type: none;
-}
-
-/* CABECA */
-/* SEÇÕES DA CABEÇA */
+/* RODAPE */
 #intro {
     width: 70%;
-    padding: 1rem 0;
+    height: 200px;
     float: left;
-}
-#intro img#retrato {
-    float: right;
-    max-width: 15%;
-    background-size: cover;
-    border: 1px solid black;
-    padding: 4px;
-}
-#intro-legenda {
-    float: left;
-}
-#intro #sobre-mim {
-    float: left;
-    width: 80%;
-    padding: 1rem 0;
 }
 
 
@@ -121,35 +61,29 @@ ul {
     margin-left: 10px;
     float: right;
 }
-#contatos ul {
-    padding: 1rem 0;
-}
-#contatos ul li {
-    float: left;
-    padding: 0 0.7rem;
-}
+
 
 /* CORPO */
-/* SEÇÕES DO CORPO */
+
 #formacao {
     width: 70%;
     float: left;
 }
+
 
 #competencias {
     width: 25%;
     float: right;
 }
 
-#competencias ul {
-    padding: 0.4rem 0;
-
-}
-#competencias ul li {
-    padding: 0.3rem 0;
-}
-
 #experiencia {
+    width: 70%;
+    float: left;
+}
+
+
+/* FOOTER */
+#footer {
     width: 70%;
     float: left;
 }
