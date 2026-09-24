@@ -1,0 +1,55 @@
+body {
+    box-sizing: border-box;
+    height: 95dvh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:  1rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    max-height: 5rem;
+}
+
+.master {
+    display: grid;
+    height: 100%;
+    grid-template-rows: 75% 25%;
+    border: 1px solid black;
+
+    & footer {
+        height: 100%;
+        border: 1px solid saddlebrown ;
+    }
+
+    & .content {
+        display: grid;
+        grid-template-columns: 12% 88%;
+
+        & nav {
+            border: 1px solid blue;
+        }
+        & .resto {
+            display: flex;
+            flex-direction: column;
+
+            border: 1px solid red;
+            & header {
+                display: flex;
+
+                align-items: center;
+                border: 1px solid aliceblue;
+                
+
+            }   
+            & main {
+                height: 100%;
+                border: 1px solid orange;
+            }
+        }
+    }
+}
+
