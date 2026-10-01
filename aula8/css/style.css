@@ -10,15 +10,31 @@ p {
     padding: 0;
 }
 
+.text-white {
+    color: #FFF;
+}
+.text-lg {
+    font-size: 1.5rem;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
 #logo {
     max-height: 5rem;
+}
+
+.curso-card {
+    border: 1px solid rgb(141, 139, 139);
+    border-radius: 7px;
 }
 
 .master {
     display: grid;
     height: 100%;
-    grid-template-rows: 75% 25%;
-    border: 1px solid black;
+    grid-template-rows: 88% 12%;
+    border: 2px solid rgb(145, 143, 143);
 
     & footer {
         height: 100%;
@@ -31,6 +47,14 @@ p {
 
         & nav {
             border: 1px solid blue;
+            background-color: #b81212;
+            & ul {
+                list-style-type: none;
+                padding: 0;
+                & a {
+                    text-decoration: none;
+                }
+            }
         }
         & .resto {
             display: flex;
@@ -38,16 +62,19 @@ p {
 
             border: 1px solid red;
             & header {
-                display: flex;
-
+                display: flex;  
+                padding: 0.5rem 2rem;
+                background-color: #ed1515;
                 align-items: center;
-                border: 1px solid aliceblue;
-                
+                gap: 3rem;
 
             }   
             & main {
                 height: 100%;
                 border: 1px solid orange;
+                display: flex;
+                gap: 1rem;
+                flex-wrap: wrap;
             }
         }
     }
