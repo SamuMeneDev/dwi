@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Cadastro</title>
+    <link rel="stylesheet" href="../../css/form-cad.css">
+</head>
+<body>
+    <main>
+        <p>Formulário de cadastro</p>
+        <a href="../../index.html">Voltar</a>
+        <form>
+            <div>
+                <label class="text-md font-medium" for="nome">Nome:</label>
+                <input name="nome" placeholder="Digite seu nome" type="text">
+            </div>
+
+            <div>
+                <label class="text-md font-medium" for="dataNasc">Data de Nascimento</label>
+                <input type="date" min="" name="dataNasc">
+            </div>
+
+            <div class="">
+                <label class="text-md font-medium" for="sexo">Selecione seu sexo</label>
+                <select name="sexo">
+                    <option value="f">Feminino</option>
+                    <option value="m">Masculino</option>
+                    <option value="o">Outro</option>
+                    <option value="">Prefiro não responder</option>
+                </select>
+            </div>
+
+            <div>
+                <label class="text-md font-medium" for="frutas">Fruta favorita</label>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="frutas">
+                        <label for="frutas">Abacaxi</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="frutas">
+                        <label for="frutas">Manga</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="frutas">
+                        <label for="frutas">Uva xD</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <label class="text-md font-medium" for="curso">Curso que deseja ingressar na FATEC</label>
+                <ul>
+                    <li>
+                        <input type="radio" name="curso">
+                        <label for="curso">DSM</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="curso">
+                        <label for="curso">Automação Industrial</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="curso">
+                        <label for="curso">Engenharia Mecânica</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="curso">
+                        <label for="curso">Joga bola</label>
+                    </li>
+                </ul>
+            </div>
+
+            <button class="button button-pink-500 font-medium" type="reset">Limpar</button>
+            <button class="button button-pink-500 font-medium" type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

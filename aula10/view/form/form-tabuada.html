@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <script src="../../js/form-tabuada.js" defer></script>
+</head>
+<body>
+    <div class="frame">
+        <div>
+            <div class="menu">
+                <p class="text-center text-xl">Tabuada</p>
+                <a href="../../index.html" class="font-medium text-center text-blue-500 text-lg">Voltar</a>
+            </div>
+            <p class="text-lg text-stone-500">Insira um número entre 1 e 10 para calcular a tabuada</p>
+            <div class="controle-frame">
+                <input id="num"  type="number" placeholder="Digite um número">
+                <button
+                    class="button button-blue-500 text-white text-md"
+                    onclick="onCalculo()"
+                    type="button">
+                    Calcular
+                </button>
+            </div>
+
+            <p id="msg" class="text-stone-500 font-medium text-center">*A tabuada aparecerá aqui</p>
+        </div>
+    </div>
+</body>
+</html>

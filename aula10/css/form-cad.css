@@ -1,0 +1,32 @@
+@import url(utils.css);
+
+body {
+    background-color: #ffc0cb;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+form {
+    justify-self: center;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #e9afb8;
+    padding: 1rem;
+    border-radius: 12px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    list-style-type: none;
+}
+
