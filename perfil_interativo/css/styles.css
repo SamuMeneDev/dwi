@@ -1,0 +1,67 @@
+@import url(utils.css);
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10rem;
+    background-color: #ff0000;
+    align-items: center;
+    color: white;
+    & .options {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    & ul {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+        list-style-type: none;
+        & a {
+            color: white;
+            text-decoration: none;
+        }
+    }
+} 
+
+#foto-bio {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    &>p{
+        justify-self: center;
+        grid-column-start: 1;
+    }
+    &>img {
+        justify-self: center;
+        grid-column-start: 1;
+        border: 2px solid black;
+    }
+}
+.master {
+    padding: 3rem;
+}
+#sobre, #linha-tempo {
+    padding: 1rem;
+}
+#sobre {
+    display: flex;
+    padding: 0 5rem;
+    justify-content: flex-end;
+}
+#linha-tempo{
+    &>.title {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.foto-apoio {
+    max-height: 25rem;
+}
